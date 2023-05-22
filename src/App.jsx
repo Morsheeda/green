@@ -11,7 +11,7 @@ function App() {
 
     return (
         <>
-            <div className="container">
+            <div className="container-1">
                 <div className="bg-separator">
                     <img src={Wave} alt="" />
                 </div>
@@ -103,7 +103,7 @@ function App() {
                         <li><a href="/">Home</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="https://www.facebook.com/greencratebd" target='_blank'>Order Now</a></li>
-                        <li><a className="disble-link" disabled > Call Now 017 22 28 76 98 </a></li>
+                        <li><a className="disble-link" disabled > <span className="call-now">Call Now </span> <span className="number">018 86 34 63 07</span> </a></li>
                     </ul>
                 </nav>
 
@@ -187,9 +187,9 @@ function App() {
                         </a>
                     </div>
                 </div>
-                <footer>
-                    
-                </footer>
+            </div>
+
+            <div className="container-2">
             </div>
 
         </>
